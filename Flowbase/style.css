@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Mulish&display=swap");
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+ */
+:root {
+    --orange: #ff7143;
+    --dark: #19191b;
+    --gray: #696871;
+    --blue: #5454d4;
+    --backgound-btn: #f7f7f8;
+    --dark-orange: #9f3919;
+    --white: #fff;
+    --card-bg: #f8f8f8;
+}
+.header {
+    max-width: 1070px;
+    padding-left: 184px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.nav-item {
+    margin-left: 49px;
+}
+.nav-item-btn {
+    margin-left: 159px;
+}
+.nav-link {
+    font-family: "DM Sans" sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--gray);
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: var(--dark);
+    border-bottom: 2px solid var(--blue);
+}
+.nav-link-btn {
+    background-color: var(--orange);
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--white);
+    padding: 19px 59px;
+    border-radius: 10px;
+}
+.nav-link-btn:hover {
+    border: none;
+    background-color: var(--dark-orange);
+    color: var(--white);
+    transition: 0.2s ease;
+}
+.wrapper {
+    max-width: 1070px;
+    padding-left: 184px;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+.main {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.main-text-title {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color: var(--dark);
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.main-text-description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.main-btn {
+    display: flex;
+    align-items: center;
+}
+.main-link {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 19px 59px;
+    border-radius: 10px;
+}
+.arrow-down {
+    margin-left: 59px;
+    border: 1px solid #e7e7e7;
+    padding: 18px 19px;
+    border-radius: 100%;
+}
+.main-img {
+    margin-left: 77px;
+}
+.logo-group {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 83px;
+}
+.content-text {
+    margin-left: 165px;
+    width: 0 0 459px;
+}
+.content-text-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "DM sans", sans-serif;
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: 30px;
+}
+.content-text-description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--gray);
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.learn-more {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "DM sans", sans-serif;
+}
+.learn-more:hover {
+    border-bottom: 2px solid var(--blue);
+}
+.index {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.index-text {
+    flex: 0 0 459px;
+}
+.index-img {
+    margin-left: 158px;
+}
+.audit {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 59px;
+}
+.audit-social {
+    text-align: center;
+    margin-right: 74px;
+}
+.audit-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "DM sans", sans-serif;
+    color: var(--dark);
+}
+.audit-description {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Mulish" sans-serif;
+    color: var(--gray);
+}
+.product {
+    display: flex;
+    align-items: center;
+}
+.product-title {
+    max-width: 523px;
+}
+.product-title-text {
+    font-size: 60px;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+}
+.product-btn {
+    margin-left: 242px;
+}
+.product-btn-sale {
+    background-color: #f7f7f8;
+    display: inline-block;
+    padding: 23px 30px 21px 4px;
+    border-radius: 10px;
+    margin: 0;
+    font-weight: 700;
+    font-family: "DM sans", sans-serif;
+    color: var(--dark);
+}
+.product-btn-sale span {
+    background-color: var(--blue);
+    color: #fff;
+    padding: 18px 25px 16px 25px;
+    border-radius: 10px 0 0 10px;
+    margin-right: 15px;
+}
+.sale {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 165px;
+}
+.sale-card {
+    width: 330px;
+    height: 441px;
+    background-color: var(--card-bg);
+    text-align: center;
+}
+.sale-title {
+    font-size: 18px;
+    font-family: "DM sans", sans-serif;
+    font-weight: 400;
+    color: var(--gray);
+}
+.pricing {
+    font-size: 28px;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 0;
+    margin-bottom: 28px;
+}
+.free {
+    font-size: 60px;
+}
+.pricing span {
+    font-size: 60px;
+}
+.sale-text {
+    font-size: 17px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    line-height: 2.2;
+    margin-bottom: 30px;
+}
+.sale-link {
+    text-decoration: none;
+    font-family: "DM sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 19px 42px;
+    border-radius: 10px;
+}
+.sale-card:hover {
+    background-color: var(--orange);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    color: #fff;
+}
+.sale-link:hover {
+    background-color: var(--dark-orange);
+    color: var(--white);
+}
+.sale-card:hover > .sale-title {
+    color: #fff;
+}
